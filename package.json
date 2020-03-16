@@ -1,0 +1,16 @@
+{
+  "name": "programming-puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-node": "8.6.2",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy-count": "ts-node deploy-count.ts"
+  },
+  "author": "Wittakarn Keeratichayakorn",
+  "license": "ISC"
+}
