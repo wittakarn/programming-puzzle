@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "deploy-count": "ts-node deploy-count.ts",
-    "santa-basement": "ts-node santa-basement.ts"
+    "santa-basement": "ts-node santa-basement.ts",
+    "wrapping-paper": "ts-node wrapping-paper.ts"
   },
   "author": "Wittakarn Keeratichayakorn",
   "license": "ISC"
