@@ -1,0 +1,19 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "redis": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/redis": "2.8.28",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3"
+  },
+  "scripts": {
+    "run": "ts-node index.ts"
+  },
+  "author": "Nexus Deployment <support.architecture-applicative@bred.fr>",
+  "license": "ISC"
+}
