@@ -29,7 +29,8 @@ def add_task_prompt():
 
 def delete_task_prompt():
     display_to_do_list()
-    print('Please delete a task')
+    print('Please delete a task (Type exactly task that you need to remove)')
+    print('Suppose you need to remove "Buy a toothpaste" task, you need to put "Buy a toothpaste" to the console')
     deleteTask = input()
 
     if deleteTask != '':
