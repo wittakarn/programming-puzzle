@@ -76,12 +76,6 @@ async function deleteTaskPrompt() {
             client.quit();
             return;
         }
-        const choices = items.map(t => (
-            {
-                title: t,
-                value: t,
-            }
-        ));
         const response = await prompts({
             type: 'select',
             name: 'deleteTask',
