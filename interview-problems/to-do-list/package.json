@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "prompt": "^1.1.0",
+    "prompts": "^2.4.1",
+    "redis": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/prompt": "^1.1.0",
+    "@types/prompts": "^2.0.10",
+    "@types/redis": "2.8.28",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3"
+  },
+  "scripts": {
+    "execute": "ts-node index.ts",
+    "prompts": "ts-node example-prompts.ts"
+  },
+  "author": "Wittakarn Keeratichayakorn",
+  "license": "ISC"
+}
